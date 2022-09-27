@@ -63,7 +63,7 @@ h1 {
 #hero-outer img{
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    
     
 }
 #cover-text{
@@ -99,4 +99,18 @@ h1 {
     height:80px;
     margin-left:250px;
     
+}
+/* gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#gallery > img {
+    width: 100%;
+    border-color: antiquewhite;
+    border-radius: 2px;
 }
