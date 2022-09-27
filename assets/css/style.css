@@ -52,3 +52,51 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* hero image and cover text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+} 
+#hero-outer img{
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    
+}
+#cover-text{
+    letter-spacing: 4px;
+    color: #252525;
+    font-size: 150%;
+    width: 250px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+/* detail-section */
+#detail-section{
+    height:600px;
+}
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+#summary {
+    text-align:center;
+    letter-spacing: 2px;
+    width:70%;
+    height:80px;
+    margin-left:250px;
+    
+}
