@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#nav {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#nav, #logo {
+    line-height: 75px;
+}
+
+#nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
