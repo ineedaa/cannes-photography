@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Reem+Kufi+Ink&display=swap');
 
 * {
     margin: 0;
@@ -10,8 +10,9 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+/* logo */
 h1 {
-    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 4px;
     color: #252525;
 }
@@ -19,7 +20,7 @@ h1 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -69,19 +70,17 @@ h1 {
     letter-spacing: 4px;
     color: #252525;
     font-size: 150%;
-    width: 250px;
-    height: 200px;
-
-    padding-top: 40px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
     padding-left: 10px;
-
     background-color: rgba(235, 118, 116, 0.7);
-
     bottom: 30px;
-    right: 150px;
-
+    right: 100px;
     position: absolute;
 }
+
 /* gallery */
 #gallery{
     height:1800px;
@@ -96,15 +95,11 @@ h1 {
     letter-spacing: 2px;
     width:70%;
     height:80px;
-    margin-left:250px;
+    margin:0 auto;
     
 }
 /* arranging gallery photos */
-hr{
-    margin-top:10px;
-    border-top: 0.5px solid #3a3a3a;
-    width: 50%;
-  }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +187,7 @@ hr{
     margin-top: auto;
     text-align: center;
     font-size: 90%;
-    padding:5px;
+    padding:3px;
     background-color: #faefef;
 
 }
@@ -210,23 +205,49 @@ hr{
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 2%;
     color: #3a3a3a;
 }
+/* Media queries */
 
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width:1200px) {
+#gallery{
+    width:65%;
+    height:800px;
+    margin:0 auto;
+}
+#gallery-heading {
+    margin:0 auto;
+    padding:30px 0;
+}
+#gallery-summary{
+    padding:10px 0;
+}
+}
 
+/* For medium screen sizes from 1000px wide and down */
 
+@media screen and (max-width: 1000px) {
 
+    #nav {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #cover-text {
+        left: 0;
+    }
 
+    #gallery {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
 
-
-
-
-
-
-
-
-
+}
 
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
@@ -234,6 +255,9 @@ hr{
       flex: 50%;
       max-width: 50%;
     }
+  }
+  #gallery{
+    height:1200px;
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
