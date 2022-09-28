@@ -83,7 +83,7 @@ h1 {
 }
 /* gallery */
 #gallery{
-    height:1600px;
+    height:1800px;
 }
 #gallery-heading {
     text-align: center;
@@ -102,14 +102,14 @@ h1 {
 hr{
     margin-top:10px;
     border-top: 0.5px solid #3a3a3a;
-    width: 100%;
+    width: 50%;
   }
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
     margin-left:20%;
-    border: 1px #3a3a3a;;
+    border: 1px #3a3a3a;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -133,7 +133,7 @@ hr{
     /* background: url("../images/photography.jpg"); */
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 600px;
 } 
 #message{
     height:100px;
@@ -181,23 +181,14 @@ hr{
     background-color:#fafafa;
     color:#f16c6b;
 }
-#side-text{
-    height:300px;
-    top:50%;
-    left:50%;
-    
-}
- #side-text-details{
-
-    letter-spacing: 4px;
-    color: #252525;
-    font-size: 150%;
-    width: 550px;
-    height: 300px;
-    
-    margin:50px;
-    
-    
+#contact {
+    background-image: url('../images/photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    overflow: hidden;
+    height:700px;
 }
 
 
