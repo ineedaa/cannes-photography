@@ -59,6 +59,7 @@ h1 {
     width: 100%;
     overflow: hidden;
     position: relative;
+   
 } 
 #hero-outer img{
     height: 600px;
@@ -109,7 +110,7 @@ hr{
     flex-wrap: wrap;
     padding: 0 4px;
     margin-left:20%;
-    border: 1px #3a3a3a;
+    
   }
   
   /* Create four equal columns that sits next to each other */
@@ -127,14 +128,8 @@ hr{
   
 
 /* form section */
- #contact {
-    clear: left;
-   
-    /* background: url("../images/photography.jpg"); */
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-} 
+ 
+
 #message{
     height:100px;
 }
@@ -189,6 +184,34 @@ hr{
     width: 100%;
     overflow: hidden;
     height:700px;
+}
+/* footer */
+
+
+#copyright{
+    margin-top: auto;
+    text-align: center;
+    font-size: 90%;
+    padding:5px;
+    background-color: #faefef;
+
+}
+.social-networks {
+    text-align: center;
+    background-color: #faefef;
+
+
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 
