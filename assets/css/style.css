@@ -63,8 +63,11 @@ h1 {
    
 } 
 #hero-outer img{
-    height: 600px;
-    width: 100%;     
+    height: auto;
+    width: 100%;  
+    background-size: cover;   
+    background-position:fixed center center;
+    background-repeat: no-repeat;
 }
 #cover-text{
     letter-spacing: 4px;
@@ -83,7 +86,7 @@ h1 {
 
 /* gallery */
 #gallery{
-    height:1800px;
+    height:600px;
 }
 #gallery-heading {
     text-align: center;
@@ -182,15 +185,6 @@ h1 {
 }
 /* footer */
 
-
-#copyright{
-    margin-top: auto;
-    text-align: center;
-    font-size: 90%;
-    padding:3px;
-    background-color: #faefef;
-
-}
 .social-networks {
     text-align: center;
     background-color: #faefef;
@@ -242,8 +236,8 @@ h1 {
     }
 
     #gallery {
-        width: 90%;
-        height: auto;
+        width: 110%;
+        height: 800px;
         margin: 0 auto;
     }
 
@@ -257,7 +251,7 @@ h1 {
     }
   }
   #gallery{
-    height:1200px;
+    height:3500px;
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
