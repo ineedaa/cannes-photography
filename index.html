@@ -37,27 +37,54 @@
         </div>
     </section>
     <section>
-        <section id="detail-section">
-            <h2 id="welcome">We Offer Everything!</h2>
-            <div id="summary">
+        <section id="gallery">
+            <h2 id="gallery-heading">We Offer Everything!</h2>
+            <div id="gallery-summary">
             <p>From wedding photography to Family Photography, we offer photo sessions that includes Maternity,Newborns,Milestones,Birthdays,graduations,Events and Branding.</p>
-        </div>
-        <div id="gallery">
+            </div>
+        <div class="row">
+            <div class="column">
             <img src="assets/images/maternity.jpg" alt=" A pregnant woman">
             <img src="assets/images/bride.jpg" alt="a bride holding a bouquet">
             <img src="assets/images/family.jpg" alt="A husband ,wife and one kid at sea">
+        </div>
+        <div class="column">
             <img src="assets/images/graduation.jpg" alt="A girl throwing a graduation cap">
             <img src="assets/images/wedding1.jpg" alt="One male and female saying their vow in a wedding">
             <img src="assets/images/familyphoto.jpg" alt="A family photo with husband ,wife and three kids">
+        </div>
+        <div class="column">
             <img src="assets/images/gifts.jpg" alt=" Decorated flower vase in a wedding">
             <img src="assets/images/newborns.jpg" alt="A newborn baby">
             <img src="assets/images/wedding.jpg" alt="A couple in wedding dress satnding on a hill">
-            
+        </div>
         </section>
-    <section>
+        
+        <hr>
+        
+    <section id="contact">
+
+            <form method="POST" action="#" class="signup-form">
+                <h2 >Contact Us!</h2>
+                <label for="name">Your Name</label>
+                <input id="name" name="full_name" type="text" class="text-input" required> 
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+                <label for="ename">Event Name</label>
+                <input id="ename" name="event_name" type="text"class="text-input" required>
+                <label for="message">Message</label>
+                <textarea id="message" class="text-input" required></textarea>
+               <input class="join-button" type="submit" value="Say Hello!">
+            </form>
+            <div id="side-text">
+
+                <p id="side-text-details">we are mainly based on cork city and suburbs.Feel free to contact us for any celebrations of your loved ones.</p>
+            </div>
+
+    </section>
 
        
 
-    </section>
+   
 </body>
 </html>
