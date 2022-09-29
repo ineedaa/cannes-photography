@@ -104,8 +104,9 @@ h1 {
     text-align: center;
     letter-spacing: 2px;
     width: 70%;
-    height: 80px;
+    height: 100px;
     margin: 0 auto;
+    font-size: 150%;
 
 }
 
@@ -114,12 +115,12 @@ h1 {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding:4px;
     margin-left: 20%;
 
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create three equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -198,12 +199,9 @@ h1 {
 }
 
 /* footer */
-
 .social-networks {
     text-align: center;
     background-color: #faefef;
-
-
 }
 
 .social-networks>li {
@@ -217,6 +215,20 @@ h1 {
     color: #3a3a3a;
 }
 
+/* confirmation section*/
+.confirmation{
+    height:700px;
+    width:100%;
+    position:relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.confirmation-text{
+
+    text-align: center;
+    margin:80px auto;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -224,10 +236,14 @@ h1 {
     .hero-outer{
         height:auto;
     }
-    
+
+    .column {
+        flex: 25%;
+        max-width: 25%;
+    }
     
     .gallery {
-        width: 65%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
@@ -235,11 +251,13 @@ h1 {
     #gallery-heading {
         margin: 0 auto;
         padding: 20px 0;
+    
     }
 
     .gallery-summary {
         padding: 5px 0;
         height:auto;
+        font-size: 120%;
     }
 }
 
@@ -253,6 +271,10 @@ h1 {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+    .column {
+        flex: 25%;
+        max-width: 25%;
     }
 
     #cover-text {
@@ -268,11 +290,12 @@ h1 {
     .gallery-summary {
         padding: 5px 0;
         height:auto;
+        font-size: 100%;
     }
 
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a one column-layout instead of three columns */
 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
@@ -281,14 +304,15 @@ h1 {
 
     .gallery{
         height:auto;
-    }
+    } 
    
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the one column stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
         flex: 50%;
         max-width: 50%;
     }
+    
 }
