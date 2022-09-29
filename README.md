@@ -3,12 +3,16 @@
 Cannes Photography is a company website that mainly aims for people looking for photographers to capture their beautiful moments of their life.This website provides photography services that includes the major events such as newborns,maternity shoot,family photos,graduation ceremony,branding and wedding.
 
 ## User Stories
-***
-As a visiting user,I am aware that the cannes photography website mainly provides photo sessions of the major events of life like wedding,maternity,newborns etc.This company is located in Cork,Ireland.I would like to contact the photographer for business activities through the contact form provided at the bottom of the page.
+
+- As a visiting user,I am aware that the cannes photography website mainly provides photo sessions of the major events of life like wedding,maternity,newborns etc.
+- This company is located in Cork,Ireland.
+- In gallery I found sample pictures taken by the photographer.
+- I would like to contact the photographer for business activities through the contact form provided at the bottom of the page.
+
 
 ## Features
 
-***
+
 
 ### Existing Features
 
@@ -35,41 +39,52 @@ As a visiting user,I am aware that the cannes photography website mainly provide
  - Also the footer provides info about the copyrights of the company.
 
 ## Features Left to Implement
-***
+
 - In future,this website may add more pages which includes info regarding the prices of the sessions,which enables the user to book the photo sessions through the website by the entering the venue ,time and date .
 
-## Typographyand Color scheme
-***
+## Typography and Color scheme
+
 - The font used in this website is  Reem Kufi Ink from [Google fonts](https://fonts.google.com).
 - The color scheme is white background and black text color.
+## Technology
+The technology used in this website is :
+  - **HTML**  for loading the text content.
+  - **CSS**  for creating a User Interface.
+  - **Gitpod**  as a workspace.
+  - **GitHub**  for deployment of the webpage.
 
 ## Testing
-***
 ### Validator Testing
  - #### HTML
    - No errors found whie testing on [W3Cvalidator.](https://validator.w3.org/)
  - #### CSS
    - No errors found while testing on [W3Cvalidator.](https://validator.w3.org/)
 ### Fixed Bugs
-   -  
+   - Fixed a bug for responsive design in gallery by adjusting height to auto with the help of my mentor.
+   - Fixed the bug for the hero-image which was stretchy .Used height-auto in CSS. 
 
 ### Supported Browsers
-  - 
-
-
-### Unfixed Bugs
+  - Compatible to Google Chrome.
+  - Used chrome stimulator for testing mobile screens.Compatible to all the stimulators in chrome bowser developer tools.
 
 ## Deployment
-***
 
+### GitHub Pages
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found [here.](https://ineeda.github.io/cannes-photography/index.html)
+- The live link can be found [here.](https://ineeda.github.io/cannes-photography/)
+
+### Gitpod 
+- In GitHub repository,click on the Gitpod icon on the right hand side .
+- Wait for the page to load in browser.
+- In terminal,write 'python -m http.server' command.
+- Click the browser button in the port 8000 that pops up.
+- The page will automatically deployed in the browser.
 
 ## Credits
-***
+
 - Content
   - The inspiration for creating the website and content in the gallery was taken from [vanessamphotography.](https://vanessamphotography.com/).
   - The responsive image grid in the gallery was taken from [w3schools.](https://w3schools.com)
