@@ -13,6 +13,7 @@ body {
 }
 
 /* logo */
+
 h1 {
     font-family: 'Playfair Display', serif;
     letter-spacing: 4px;
@@ -82,14 +83,15 @@ h1 {
     text-align: center;
     padding-top: 20px;
     padding-left: 10px;
-    background-color: rgba(238, 124, 122, 0.7);
+    background-color: #ee7c7ab3;
     bottom: 30px;
     right: 100px;
     position: absolute;
 }
 
 /* gallery */
-.gallery {
+
+#gallery {
     height: auto;
     padding: 5px;
 }
@@ -121,6 +123,7 @@ h1 {
 }
 
 /* Create three equal columns that sits next to each other */
+
 .column {
     flex: 25%;
     max-width: 25%;
@@ -144,7 +147,7 @@ h1 {
 .signup-form {
     margin: 100px 10% 0 0;
     color: #252525;
-    background-color: rgba(235, 118, 116, 0.7);
+    background-color: #eb7674b3;
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -177,8 +180,8 @@ h1 {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: #ebe2e2;
+    color: #3a3a3a;
     display: block;
 }
 
@@ -188,7 +191,7 @@ h1 {
     color: #f16c6b;
 }
 
-.contact {
+#contact {
     background-image: url('../images/photography.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,6 +202,7 @@ h1 {
 }
 
 /* footer */
+
 .social-networks {
     text-align: center;
     background-color: #faefef;
@@ -216,6 +220,7 @@ h1 {
 }
 
 /* confirmation section*/
+
 .confirmation{
     height:700px;
     width:100%;
@@ -242,7 +247,7 @@ h1 {
         max-width: 25%;
     }
     
-    .gallery {
+    #gallery {
         width: 100%;
         height: auto;
         margin: 0 auto;
@@ -277,12 +282,9 @@ h1 {
         max-width: 25%;
     }
 
-    #cover-text {
-        left: 5%;
-        height:auto;
-    }
+    
 
-    .gallery {
+    #gallery {
         width: 100%;
         height: auto;
         margin: 0 auto;
@@ -301,8 +303,8 @@ h1 {
         flex: 50%;
         max-width: 50%;
     }
-
-    .gallery{
+    
+    #gallery{
         height:auto;
     } 
    
@@ -314,5 +316,23 @@ h1 {
         flex: 50%;
         max-width: 50%;
     }
+
+    #nav {
+        margin-left:0;
+    }
+    #cover-text {
+        left: 5%;
+        letter-spacing: 2px;
+        font-size: 80%;
+        width: 200px;
+        height: 70px;
+        text-align: center;
+        padding-top: 20px;
+        padding-left:2px;
+        bottom: 8px;
+        right: 70px;
+        position: absolute;
+        margin-left:2px;
     
+    }
 }

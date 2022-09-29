@@ -2,6 +2,8 @@
 
 Cannes Photography is a company website that mainly aims for people looking for photographers to capture their beautiful moments of their life.This website provides photography services that includes the major events such as newborns,maternity shoot,family photos,graduation ceremony,branding and wedding.
 
+
+![website in different screens](docs/amiresponsive.png)
 ## User Stories
 
 - As a visiting user,I am aware that the cannes photography website mainly provides photo sessions of the major events of life like wedding,maternity,newborns etc.
@@ -20,23 +22,40 @@ Cannes Photography is a company website that mainly aims for people looking for 
  - Featured on the top right hand side of the page,the full responsive navigation bar includes links to the  Home section, Gallery and Contact section to allow for easy navigation.
  - This section will allow the user to easily navigate from sections across all devices without having to scroll down to previous sections.
 
+![navbar and logo](docs/navbarandlogo.png)
+
 #### 2.The Hero-Image
  - The landing page includes a photograph with text overlay to allow the user to see the sample of a wedding photo of a beautiful couple the photographer has taken.
  - This section introduces the user to the amazing work of the photographer has done.
+
+![hero image](docs/hero-image.png)
 
 #### 3.Gallery Section
 - The gallery section features with a detailed info regarding the company ,location of the company and a collection of photos the photographer has taken.
 - The detailed info includes the type of work the photographer does which includes photo sessions of  most of the major events of life.
 - The photo collection enables the user to recognize  the ability of the photographer.
 
+![gallery image](docs/gallery.png)
+
+
 #### 4.Contact Section
  - This section provides contact acess to the company.
  - This section allows the user to contact the company by typing their name ,email address , name of the event and can add a message .
+
+![contact image](docs/contact.png)
 
 #### 5.Footer
  - The footer section includes links to the relevant social media sites for Cannes photography. The links will open to a new tab to allow easy navigation for the user.
  - The footer is valuable to the user as it encourages them to keep connected via social media.
  - Also the footer provides info about the copyrights of the company.
+
+![footer image](docs/footer.png)
+
+#### 6.Confirmation Page
+ - This page confirms the submission of the contact form filled by the user.
+ - It provides a feedback from the company that the user info is noted.
+
+![confirmation page](docs/confirmation.png)
 
 ## Features Left to Implement
 
@@ -46,6 +65,7 @@ Cannes Photography is a company website that mainly aims for people looking for 
 
 - The font used in this website is  Reem Kufi Ink from [Google fonts](https://fonts.google.com).
 - The color scheme is white background and black text color.
+
 ## Technology
 The technology used in this website is :
   - **HTML**  for loading the text content.
@@ -54,6 +74,10 @@ The technology used in this website is :
   - **GitHub**  for deployment of the webpage.
 
 ## Testing
+ - While clicking on the navigation menu icons,user gets the respective section of the page.
+ - In the contact form,when user skips the name field,email field or event name field,user should notice the error in the field that's left vacant.
+ - While clicking on Let's talk button,user gets a confirmation page that confirms the message is received.
+ 
 ### Validator Testing
  - #### HTML
    - No errors found whie testing on [W3Cvalidator.](https://validator.w3.org/)
